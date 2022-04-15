@@ -1,0 +1,376 @@
+/*
+
+Theme Name: Pro &ndash; Child Theme
+Theme URI: https://theme.co/pro/
+Author: Themeco
+Author URI: https://theme.co/
+Description: Make all of your modifications to Pro in this child theme.
+Version: 1.0.0
+Template: pro
+
+*/
+
+::selection {
+    background: #FBBF14;
+}
+
+
+
+
+.projet {
+    margin-left: 20vw;
+    margin-right: 20vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.projet-back {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    color: #273238;
+}
+
+.projet-back:hover {
+    color: #FBBF14;
+    transition: 0.2s;
+}
+
+.projet-back img {
+    width: 20px;
+    margin-right: 5px;
+}
+
+.projet-back p {
+    font-size: 1.25em;
+    margin: 0;
+}
+
+.projet-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.projet-title {
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.projet-title h1 {
+    font-size: 3em;
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding-right: 15px;
+}
+
+.projet-version {
+    font-size: 1.5em;
+    margin-bottom: 0;
+}
+
+.projet-competences {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.projet-competence {
+    margin: 0;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    background-color: white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    color: #273238;
+}
+
+.projet-competence:hover {
+    color: #FBBF14;
+    outline: #FBBF14 solid 1px;
+    transition: 0.2s;
+}
+
+.projet-description {
+    font-size: 1.5em;
+}
+
+.projet-link {
+    background-color: #FBBF14;
+    color: #273238;
+    border-radius: 10px;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 1.25em;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.projet-link:hover {
+    background-color: #e9b012;
+    color: #273238;
+    transition: 0.2s;
+}
+
+.projet-no_link:hover {
+    color: #273238;
+}
+
+.projet-no_link {
+    background-color: #ffe59d;
+    color: #273238;
+    border-radius: 10px;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 1.25em;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.projet-image {
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+    margin-bottom: 40px;
+}
+
+.projet-image:hover {
+    transition: 0.4s;
+    opacity: 0.8;
+}
+
+.projet-auteurs {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 1.5em;
+}
+
+p.projet-auteurs {
+    margin-bottom: 0;
+}
+
+.projet-auteur img {
+    border-radius: 100%;
+    height: 20px;
+    margin-right: 4px;
+}
+
+.projet-auteur {
+    background-color: white;
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 2px 8px;
+    display: flex;
+    align-items: center;
+    color: #273238;
+}
+
+.projet-auteur:hover {
+    color: #FBBF14;
+    outline: #FBBF14 solid 1px;
+    transition: 0.2s;
+}
+
+.projet-tips {
+    font-size: 1.25em;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+.archive-page {
+    margin-bottom: 60px;
+    margin: 0 5vw;
+}
+
+.archive-titre {
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    max-width: 1400px;
+}
+
+.archive-result {
+    font-style: italic;
+}
+
+
+
+
+
+
+
+.projet-archive {
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.10);
+    color: #273238;
+    max-height: 175px;
+    width: 100%;
+    margin-bottom: 40px;
+    max-width: 1400px;
+    margin: 40px auto;
+    overflow: hidden;
+}
+
+.projet-archive:hover {
+    opacity: 0.8;
+    transition: 0.4s;
+    color: #273238;
+}
+
+.archive-image {
+    width: 25%;
+}
+
+.projet-archive img {
+    border-radius: 10px 0 0 10px;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    /* filter: blur(2px); */
+}
+
+.projet-archive h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 2.5em;
+}
+
+.archive-contenu {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.archive-competences {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.archive-competence {
+    margin: 0;
+    margin-right: 5px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #273238;
+    margin-bottom: 5px;
+}
+
+
+/* .archive-details {
+} */
+
+.archive-details p {
+    margin: 0;
+    margin-bottom: 6px;
+}
+
+.archive-detail {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+.search-no_result {
+    font-size: 1.5em;
+    margin: auto;
+    max-width: 1400px;
+    margin-bottom: 40px;
+}
+
+
+.apma {
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 40px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.10);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    padding: 20px;
+}
+
+.apma h2 {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.apma-nom {
+    color: #FBBF14;
+}
+
+/* .apma-titre {
+    width: auto;
+} */
+
+.apma-projets {
+    display: grid;
+    grid-gap: 10px;
+}
+
+.apma-projets a {
+    color: #273238;
+}
+.apma-projets a:hover {
+    color: #273238;
+    opacity: 0.8;
+    transition: 0.2s;
+}
+
+.apma-projet {
+    display: flex;
+    flex-direction: column;
+    border: #273238 solid 1px;
+    border-radius: 10px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.apma-projet img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    height: 200px;
+    object-fit: cover;
+}
+
+.apma-texte {
+    padding: 10px 20px;
+}
+
+.apma-projet h3 {
+    margin: 0;
+}
+
+.apma-projet p {
+    margin: 0;
+}
+
